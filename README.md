@@ -33,7 +33,7 @@ This repository depends on the Language Model Evaluation Harness to obtain Globa
 - https://github.com/EleutherAI/lm-evaluation-harness
 
 ## Using this repository
-- `bias_eval.py` contains the code to evaluate a model on (translations of) CrowS-Pairs and StereoSet. Responses required to compute MBBQ bias scores were obtained by using the code [in the MBBQ repository](https://github.com/Veranep/MBBQ).
+- `bias_eval.py` contains the code to evaluate a model on (translations of) CrowS-Pairs (translations [here](https://gitlab.inria.fr/corpus4ethics/multilingualcrowspairs)) and StereoSet (translations [here](https://github.com/slds-lmu/stereotypes-multi) and [here](https://github.com/JongyoonSong/K-StereoSet)). Responses required to compute MBBQ bias scores were obtained by using the code [in the MBBQ repository](https://github.com/Veranep/MBBQ).
 
   Example usage:
   ```
